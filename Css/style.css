@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#3e4141;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+    "miheader"
+    "portada"
+    "blog"
+    "mifooter";
+    grid-template-rows: 75px auto auto 60px;
+}
+
+header {
+    grid-area: miheader; 
+    background:#212424;
+}
+
+/*-------------------------------------MENU---------------------------------------*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    font-weight: 400;
+}
+ header nav ul li {
+    list-style-type: none;
+    margin: 0 15px;
+    display: inline-block;
+ }
+ 
+ header nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+ }
+
+ .checkbottom {
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    display: none;
+ }
+
+ #check {
+    display: none;
+
+ }
+
+/*---------------------------------SECTION PORTADA-------------------------------------*/
+section#portada {
+    grid-area: portada;
+    background-image: url(https://c.wallhere.com/photos/cd/20/snowboard_snowboarder_trick_snow-1182286.jpg!d);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+section#portada div img{
+    display: flex;
+    align-items: center;
+}
+
+/*---------------------------------SECTION BLOG--------------------------------------*/
+section#blog{
+   grid-area: blog;
+   margin: 20px;
+
+}
+
+section#blog article{
+    display: flex;
+    margin: 20px;
+}
+
+section#blog article div{
+    width: 50%;
+    padding: 10px;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 450px;
+}
+
+.imgski{
+    width: 100%;
+    height: auto;
+}
+
+.imgflag {
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+    padding-left: 25%;
+}
+.firsttittle{
+    font-size: 60px;
+    text-align: center;
+    font-family:'Bebas Neue';    
+}
+
+.secondtittle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafo_conteiner {
+    background-color: #3db19e;
+    color: white;
+    border: 4px solid #393e3e;
+    padding: 20px;
+    margin: 30px 10px;
+    text-align: justify;
+}
+
+/*----------------------------------FOOTER-----------------------------------*/
+footer {
+    grid-area: mifooter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212424;
+}
+
+/*-----------------------------EMPRESAS COMPLEMENTOS---------------------------*/
+
+#sectionempresa {
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionempresa article {
+    width: 300px;
+    height: 400px;
+    background-color: #212424;
+    border: 1px solid #212424;
+}
+
+#sectionempresa #divempresa {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+    
+}
+
+.artempresa{
+    margin: 20px;
+}
+
+#sectionempresa article img{
+    width: 100%;
+    height: auto;
+ 
+}
+
+
+@media screen and (max-width: 988px) {
+    .checkbottom{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: purple;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover {
+        background: none;
+        color: white;
+    } 
+    #check:checked ~ ul{
+        left: 0;
+      }
+    .firsttittle{
+        font-size: 40px;  
+    }
+    .secondtittle {
+        font-size: 20px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .imgski{
+        padding-top: 50px;
+    }
+    .img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 380px;
+    }
+    section#blog article{
+        margin: 0;
+    }
+    section#portada {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    section#blog article{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section#blog article div{
+        width: 100%;
+    }
+    .firsttittle{
+        font-size: 30px;  
+    }
+    .secondtittle {
+        font-size: 15px;
+    }
+    body {
+        font-size: 10px;
+    }
+}
