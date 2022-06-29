@@ -50,6 +50,14 @@ header nav {
     text-decoration: none;
  }
 
+ header nav ul li a:hover {
+    font-size: 16px;
+    background: rgb(82,82,88);
+    background: linear-gradient(180deg, rgba(82,82,88,1) 0%, rgba(83,198,179,1) 100%, rgba(181,181,186,1) 100%);
+    padding:4px 8px; 
+    
+ }
+
  .checkbottom {
     font-size: 30px;
     color: white;
@@ -75,10 +83,53 @@ section#portada {
     padding: 0;
 }
 
-section#portada div img{
-    display: flex;
-    align-items: center;
+#div_snow {
+    height: 600px;
+    width: 100%;
 }
+
+.snow {
+    background-image: url(../Img/snow1.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    filter:blur(1.5px)
+}
+
+.little {
+    background-size: 150px 135px;
+    background-position: 0px -100px;
+    animation: snow1 14s infinite linear;
+}
+
+.transparente {
+    background-image: url(../Img/snowtransparente.png);
+    background-position: 0px 90px;
+    animation: snow2 8s linear infinite;
+}
+
+.big {
+    background-size: 600px 540px;
+    background-position: 150px 100px;
+    animation: snow3 10s linear infinite;
+}
+
+@keyframes snow1 {
+    0% {background-position: 0px -100px;}
+    100% {background-position: 150px 35px;}
+}
+@keyframes snow2 {
+    0% {background-position: 0px 90px;}
+    100% {background-position: 380px 260px;}
+}
+@keyframes snow3 {
+    0% {background-position: 150px 100px;}
+    100% {background-position: 650px 400px;}
+}
+
 
 /*---------------------------------SECTION BLOG--------------------------------------*/
 section#blog{
@@ -127,7 +178,8 @@ section#blog article div{
 }
 
 .parrafo_conteiner {
-    background-color: #3db19e;
+    background: rgb(82,82,88);
+    background: linear-gradient(180deg, rgba(82,82,88,1) 0%, rgba(83,198,179,1) 100%, rgba(181,181,186,1) 100%);
     color: white;
     border: 4px solid #393e3e;
     padding: 20px;
@@ -145,20 +197,28 @@ footer {
 }
 
 /*-----------------------------EMPRESAS COMPLEMENTOS---------------------------*/
+#wrapper_empresa {
+    display: grid;
+    grid-template-areas:
+    "miheader"
+    "introducción"
+    "blogempresa"
+    "mifooter";
+    grid-template-rows: 75px auto auto 60px;
+}
 
-#sectionempresa {
+#introducción {
+    grid-area: introducción;
+    margin-top: 30px;
+}
+
+#blogempresa {
+    grid-area: blogempresa;
     display: flex;
     flex-direction: column;
 }
 
-#sectionempresa article {
-    width: 300px;
-    height: 400px;
-    background-color: #212424;
-    border: 1px solid #212424;
-}
-
-#sectionempresa #divempresa {
+#blogempresa #divempresa {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -168,10 +228,22 @@ footer {
 }
 
 .artempresa{
+    width: 300px;
+    height: 400px;
+    background-color: #212424;
+    border: 1px solid #212424;
     margin: 20px;
+    -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
+    box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
+    transition: height 2s, width 1s;
 }
 
-#sectionempresa article img{
+.artempresa:hover {
+   height: 425px;
+   width: 350px;
+}
+
+#blogempresa article img{
     width: 100%;
     height: auto;
  
@@ -186,7 +258,6 @@ footer {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: purple;
         top: 80px;
         left: -100%;
         text-align: center;
