@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3e4141;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.div_conteineright{
+    padding: 30px 25px 30px 35px;
+}
+.div_conteinerleft{
+    padding: 30px 35px 30px 20px;
+}
+.art_conteiner{
+    margin: 30px 0px;
+}
+#margintop {
+    margin-top: 100px;
+}
+.color1{
+    background-color:#8b8589;
+    color: white;
+}
+.color2{
+    background-color:#989898;
+    color: white;
+}
+.color3{
+    background-color:#838996;
+    color: white;
+}
+
+/*----------------- EMPRESA ---------------------*/
+#sectionflex {
+    display: flex;
+    flex-direction: column;
+}
+section #divempresa {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.artempresa{
+    width: 300px;
+    height: 410px;
+    background-color: #212424;
+    border: 1px solid #212424;
+    margin: 20px;
+    -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
+    box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
+    transition: height 2s, width 1s;
+}
+.artempresa:hover {
+   height: 465px;
+   width: 360px;
+}
+section article img{
+    width: 100%;
+    height: auto;
+}
