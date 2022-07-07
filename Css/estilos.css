@@ -4,12 +4,7 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: #3e4141;
-    color: white;
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-}
+
 .div_conteineright{
     padding: 30px 25px 30px 35px;
 }
@@ -19,9 +14,7 @@ body{
 .art_conteiner{
     margin: 30px 0px;
 }
-#margintop {
-    margin-top: 100px;
-}
+
 .color1{
     background-color:#8b8589;
     color: white;
@@ -39,76 +32,19 @@ body{
     height: 75vh;
 }
 
-h1{
-    font-size: 2rem;
-    font-weight: bolder;
-}
-
 .degrades{
     background: rgb(131,137,150);
     background: radial-gradient(circle, rgba(131,137,150,1) 0%, rgba(62,65,65,1) 100%);
 }
 
+.sectionflex{
+    display: flex;
+    flex-direction: column;
+}
 /*-------------------MENÚ/FOOTER------------------------*/
 nav{
     background-color:  #212424;
 }
 footer{
     background-color:  #212424;
-}
-/*----------------- EMPRESA ---------------------*/
-#sectionflex {
-    display: flex;
-    flex-direction: column;
-}
-section #divempresa {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 30px;
-}
-.artempresa{
-    width: 300px;
-    height: 290px;
-    background-color: #212424;
-    border: 1px solid #212424;
-    margin: 20px;
-    -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
-    box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
-    transition: height 2s, width 1s;
-}
-.artempresa:hover {
-   height: 320px;
-   width: 360px;
-}
-section article img{
-    width: 100%;
-    height: auto;
-}
-
-.borderconteiner{
-    background-color: #212424;
-    border: 1px solid #212424;
-    margin: 20px;
-    -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
-    box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
-    transition: height 2s, width 1s;
-}
-
-@media screen and (max-width: 988px) {
-    h1{
-        font-size: 1.5rem;
-    }
-    h2{
-        font-size: 1.2rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
-    body{
-        font-size: 0.8rem;
-    }
-
-
 }
