@@ -22,6 +22,17 @@ h3{
 h4{
     font-size: 1.4rem;
 }
+
+//----------Mixin-----------//
+@mixin box-transition {
+    background-color: #212424;
+    border: 1px solid #212424;
+    margin: 20px;
+    -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
+    box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
+    transition: height 2s, width 1s;
+}
+
 section{
     &#margintop{
         margin-top: 100px;
@@ -29,6 +40,26 @@ section{
     &.sectionflex{
         display: flex;
         flex-direction: column;
+    }
+    article{
+        &.blackbox {
+            color: white;
+            text-align: center;
+            background-color: black;
+            background: rgba( 5, 7, 12, 0.40);
+            margin-left: 100px;
+            margin-right: 100px; 
+        }
+        div{
+            ul{
+                li{
+                    &.nonstyle{
+                        list-style: none;
+                    }
+                }
+            }
+        }
+        
     }
     div{
         &#divempresa{
@@ -39,12 +70,7 @@ section{
             margin: 30px;
         }
         &.borderconteiner{
-            background-color: #212424;
-            border: 1px solid #212424;
-            margin: 20px;
-            -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
-            box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
-            transition: height 2s, width 1s;
+            @include box-transition; 
         }
         article{
             img{
@@ -54,20 +80,62 @@ section{
             &.artempresa{
                 width: 300px;
                 height: 290px;
-                background-color: #212424;
-                border: 1px solid #212424;
-                margin: 20px;
-                -webkit-box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83); 
-                box-shadow: 3px 5px 6px 3px rgba(0,0,0,0.83);
-                transition: height 2s, width 1s;
+                @include box-transition;
                 &:hover{
                     height: 320px;
                     width: 360px;
-                }        
+                }
+            }
+            &.bussiness-pink{
+                @extend .artempresa;
+                &:hover{
+                    background-color:#b97575;
+                }
+            }
+            &.bussiness-orange{
+                @extend .artempresa;
+                &:hover{
+                    background-color: #d1b186;
+                }
+            }
+            &.bussiness-blue{
+                @extend .artempresa;
+                &:hover{
+                    background-color: #8591b1;
+                }
+            }
+            &.bussiness-green{
+                @extend .artempresa;
+                &:hover{
+                    background-color: #8aba90;
+                }
             }
         }
     }
 }
+
+//---------Maps----------//
+$colorinside: (
+    "color1": #8b8589, 
+    "color2": #989898,
+    "color3": #838996,
+    "colortext": white, 
+);
+
+.color1{
+    background-color: map-get($colorinside, "color1");
+    color: map-get($colorinside, "colortext")
+}
+.color2{
+    background-color: map-get($colorinside, "color2");
+    color: map-get($colorinside, "colortext" )
+}
+.color3{
+    background-color: map-get($colorinside, "color3");
+    color: map-get($colorinside, "colortext")
+}
+
+
 @media screen and (max-width: 988px) {
     h1{
         font-size: 1.5rem;
