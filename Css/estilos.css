@@ -18,11 +18,60 @@
     width: 100%;
     height: 75vh;
 }
+.tittle-center{
+    margin-top: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#div-top {
+    margin-top: 690px;
+    margin-bottom: 20px;
+}
+#div-top-simple{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.img-tittle {
+    height: 450px;
+    width: 450px;
+}
+.divblack{
+    background-color: rgb(10, 10, 10);
+}
+
 /*-------------------MENÚ/FOOTER------------------------*/
 nav{
-    background-color:  #212424;
-
+    background-color: rgb(10, 10, 10);
+}
+.navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 footer{
-    background-color:  #212424;
+    background-color:  rgb(10, 10, 10);
+    height: 40px;
+    padding-top: 5px;
 }
+
+#principal {
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../Img/blog_covid_v1-overlay-overlay.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.blackfond {
+    color: white;
+    text-align: center;
+    background-color: black;
+    background: rgba( 5, 7, 12, 0.70);
+}
+.img_icon {
+    height: auto;
+    width: 50%;
+}
+

@@ -1,0 +1,195 @@
+<body>
+    <header class="conteiner-fluid">
+        <!-- Mi menú -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html"> <img src="./Img/logo-menu.png" alt="Logo" height="60px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="#info">Información<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                       <a class="nav-link" href="Requisitos_y_beneficios.html">Requisitos y beneficios<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Empresas.html">Empresas Argentinas<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Visa.html">Visa/Consulado<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Entrevista.html">Entrevistas<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Mi vista de portada-->
+        <div class="conteiner-fluid">
+            <img src="./Img/portada.jpg" class="img-fluid blackfond" alt="Foto Portada">
+        </div>
+    </header>
+    <section id="info">
+        <article class="conteiner art_conteiner">
+            <div class="row">
+                <div class="col-md-6 text-center div_conteineright"> 
+                    <h1>WORK AND TRAVEL</h1>
+                    <h2>¿De qué trata?</h2>
+                    <p class="text-justify">Muchos de nosotros en algún momento de nuestra vida soñamos con un viaje al exterior, y Estados Unidos es uno de los países que te ayuda a que lo cumplas. Se trata de un programa de intercambio cultural para estudiantes regular de nivel terciario y universitario. Los estudiantes podrán viajar al país mencionado a vivir y trabajar por un máximo de 3/4 meses, experimentar la cultura americana, mejorar el nivel de inglés, hacer amigos internacionales y obtener experiencia laboral. <a href="Requisitos_y_beneficios.html">[Ver Requisitos]</a></p>
+                    <h2>¿TE GUSTA EL FRÍO?</h2>
+                    <p class="text-justify">La mayoría de los Argentinos deciden hacer el programa en el receso de verano (Diciembre-Marzo) que es cuando los estudiantes tienen mayor tiempo vacacional. En Estados Unidos es invierno y por lo general los trabajos disponibles se relacionan a la temporada, esto dependerá del Estado en donde desees aplicar y la variedad de oferta que tenga la agencia de work and travel (W&T) elegida.
+                    Los puestos de trabajo más comunes suelen estar relacionados con centros de esquí, gastronomía y hotelería.</p>
+                </div>
+                <div class="col-md-6 text-center div_conteinerleft"> 
+                    <iframe class="text-center img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14723559.025609048!2d-107.81855549693097!3d40.746579021661404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sEstados%20Unidos!5e0!3m2!1ses-419!2sar!4v1656875011582!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+                </div>
+            </div>
+        </article>
+        <article class="conteiner art_conteiner">
+            <div class="row">
+                <div class="col-md-6 text-center div_conteineright">
+                    <img class="img-fluid text-center" src="./Img/fotoski.jpg" alt="Foto de nieve">  
+                </div>
+                <div class="col-md-6 text-center div_conteinerleft">
+                    <h2>REQUISITOS</h2>
+                    <p>DURACIÓN DISPONIBLE</p>
+                    <p>ESTUDIOS</p>
+                    <p>INGLÉS INTERMEDIO</p>
+                    <p>EDAD ENTRE 18 y 28/29 AÑOS</p>
+                    <p>NACIONALIDAD ARGENTINA</p>
+                </div>
+            </div>
+        </article>
+        <article class="conteiner art_conteiner">
+            <div class="row">
+                <div class="col-md-4 text-center div_conteineright color1">
+                    <h2>poner algo</h2>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti iusto sequi aspernatur asperiores quaerat nisi, unde, quibusdam sed voluptate numquam molestias quos nulla rem illum laboriosam alias, inventore cupiditate?
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam amet voluptas necessitatibus expedita iure quaerat id reprehenderit sapiente sunt accusantium, odit quae mollitia earum atque cum nam. Reiciendis, qui commodi!
+                </div>
+                <div class="col-md-4 text-center div_conteineright color2">
+                    <h2>VISA J1</h2>
+                    <p class="text-justify">Este programa te da la oportunidad de obtener una Visa J1 para poder viajar y trabajar de manera legal en los EE.UU. Primero, tendrás que cumplir ciertos requerimientos, entre ellos nivel intermedio de inglés, ser estudiante universitario o terciario de condición regular y tener un seguro médico estadounidense, además deberás presentarte a una entrevista personal en inglés en la Embajada de los Estados Unidos ubicada en Buenos Aires Capital. Pero ¡tranquilos!, para eso están las empresas patrocinadoras de tu visa, la cual se van a encargar de ayudarte en todo el proceso de preparación para tu viaje y nosotros tenemos toda la información para vos. <a href="Visa.html">[Ver más]</a></p>
+                </div>
+                <div class="col-md-4 text-center div_conteinerleft color3">
+                    <h2>COSTOS</h2>
+                     <p class="text-justify">Las agencias de Work and Travel rondan un precio promedio de U$S 1900 y dependerá del tiempo anticipado en el que apliques al programa, es decir, cuanto antes empieces a pagar, menor va a ser el precio. Además te ofrecen métodos de pagos mensuales hasta mediados de agosto que es cuando comienza la feria de trabajo. Algo a destacar, es que este programa no incluye pasajes de avión así que deberás sumarle alrededor de U$S 1000 más. Aunque seguramente los asuste con el precio, quiero decirles que no es imposible, mente positiva y a ¡ahorrar! que los sueños están para cumplirse. Recuerden que este programa tiene una recompensa económica por trabajar, así que probablemente recuperen toda su inversión. 
+                    </p>
+                </div>
+            </div>
+        </article> 
+    </section>
+
+    <!-------------------------------HASTA ACÁ MI INDEX------------------------------------------>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Requisitos y beneficios de hacer un Work and Travel">
+    <meta name="keywords" content="WaT USA, W&T USA, Experiencia Argentina, work and travel, Visa j1, entrevistas work and travel, agencias work and travel, empresas work and travel, entrevistas work and travel, requisitos, beneficios, viajes, estados unidos">
+    <meta name="robots" content="Requisitos, Beneficios, follow">
+    <meta name="author" content="ExpAR">
+    <title>Requisitos y Beneficios</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="conteiner-fluid">
+        <!-- Mi menú -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html"> <img src="./Img/logo-menu.png" alt="Logo" height="60px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#info">Información<span class="sr-only">(current)</span></a>
+                     </li>
+                    <li class="nav-item active">
+                       <a class="nav-link" href="Requisitos_y_beneficios.html">Requisitos y beneficios<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Empresas.html">Empresas Argentinas<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Visa.html">Visa/Consulado<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Entrevista.html">Entrevistas<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="margintop" class="sectionflex">
+        <h1 id="margintop" class="text-center">REQUISITOS</h1>
+        <div class="art_conteiner justify-content-center conteiner row borderconteiner">
+            <div class="col-md-3 text-center div_conteineright color1">
+                <h1>EDAD</h1>
+                <img src="Img/eddd.png" alt="Edad" width="80%" height="23%" class="img-fluid">
+                <p class="text-justify">El estudiante deberá tener una edad entre 18 y 28 años inclusive. En algunas empresas tienen un límite hasta 29 años, solo es cuestión de buscar e informarse.</p>
+            </div>
+            <div class="col-md-3 text-center div_conteineright color2">
+                <h1>ESTUDIOS</h1>
+                <img src="Img/estudios.jpg" alt="Imagen de estudio" class="img-fluid">
+                <p class="text-justify">Para poder aplicar al programa, deberá ser estudiante regular de nivel terciario o universitario. Es decir, que al momento de presentarse en la embajada de los EE.UU presentará su certificado de alumno regular y una constancia de al menos una o dos materias ya aprobadas del mismo año transcurrido.</p>
+            </div>
+            <div class="col-md-3 text-center div_conteineright color3">
+                <h1>DURACIÓN</h1>
+                <img src="Img/calendar.png" alt="Calendario" width="50%" height="20%" class="img-fluid">
+                <p class="text-justify">Acceder al programa, estás confirmando que tenés tiempo para quedarte al menos tres meses en los EE.UU y cumplir con la duración del contrato de trabajo. En caso contrario, es cuestión de hablarlo con la empresa y el empleador para llegar a un acuerdo.</p>
+            </div>
+            <div class="col-md-3 text-center div_conteineright color1">
+                <h1>INGLÉS</h1>
+                <img src="Img/language1.jpg" alt="Idioma Inglés" width="70%" height="22%" class="img-fluid">
+                <p class="text-justify">La mayoría de las empresas piden inglés intermedio, pero la realidad es que algunos puestos de trabajo no te exigen un buen nivel de inglés, deberás hablarlo con tu empresa y ellos te recomendarán qué lugar y puesto es ideal aplicar y sentirte cómodo con tu nivel. Recordá que habrá más latinos trabajando que te podrán ayudar cuando no entiendas algo. Lo más importante es prepararse bien para las entrevistas. </p>
+            </div>
+        </div>
+    
+        <h1 class="text-center">BENEFICIOS</h1>
+        
+
+        </div>
+        <div id="divempresa">
+            <article class="artempresa col-md-3">
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>Mejora en el nivel de Inglés</p>
+            </article>
+            <article class="artempresa col-md-3"> 
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>Amigos Internacionales</p>
+            </article>
+            <article class="artempresa col-md-3">
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>Sueldo en dólares</p>
+            </article> <article class="artempresa col-md-3">
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>Conocer la cultura américana y viajar</p>
+            </article> <article class="artempresa col-md-3">
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>Experiencia laboral a nivel Internacional</p>
+            </article> <article class="artempresa col-md-3">
+                <img src="./Img/TILDE.png" alt="Requisito" style="height:75%; width:100%;"></a>
+                <p>1 mes vacacional en los EE.UU</p>
+            </article>
+        </div>
+    </section>
+     <!--link script-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <footer class="text-center">
+        <p>© Copyright - W&T USA Experiencia Argentina - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
+<!-------------------------------HASTA ACÁ REQUISITOS---------------------------------->
+
