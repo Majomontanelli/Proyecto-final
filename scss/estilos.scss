@@ -1,5 +1,4 @@
 body{
-    background-color: #3e4141;
     color: white;
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
@@ -78,12 +77,12 @@ section{
                 height: auto;
             }
             &.artempresa{
-                width: 300px;
-                height: 290px;
+                width: 250px;
+                height: 270px;
                 @include box-transition;
                 &:hover{
-                    height: 320px;
-                    width: 360px;
+                    height: 300px;
+                    width: 330px;
                 }
             }
             &.bussiness-pink{
