@@ -31,10 +31,9 @@
 .acordion_margin{
     margin-bottom: 15px;
 }
-.visafondo{
-    background: url(../Img/visafondo.png)no-repeat center;
-    height: 37rem;
-    width: 100%;
+.visaform{
+     height: auto;
+     width: 100%;
 }
 .div_style{
     margin-bottom: 2rem;
