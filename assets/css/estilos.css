@@ -76,7 +76,6 @@ footer{
 
 #principal {
     min-height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../Img/portada.png) no-repeat center center fixed;
     background-size: cover;
     
 }
@@ -91,6 +90,7 @@ footer{
     height: auto;
     width: 50%;
 } 
+
 /*-----------ACCORDION---------------*/
 .accordion .card-header:after{
     font-family: 'FontAwesome';
