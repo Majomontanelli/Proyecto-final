@@ -1,17 +1,30 @@
 body{
     color: white;
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'sans-serif', 'Staatliches';
     background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/portada.png) no-repeat center center fixed !important;
 }
 h1 h2 h3 h4{
     font-weight: bolder;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    &.tittle_one{
+        text-shadow: 0 0 0.2em black, 0 0 0.2em black,
+		0 0 0.2em black;
+        font-weight: border;
+    }
 }
 h2{
     font-size: 2rem;
+    &.phase_style {
+        font-family: 'Staatliches';
+        font-size: 4rem;
+        font-weight: bolder;
+        color: rgb(38, 74, 143);
+        text-shadow: -1px 0 white, 0 1px white,
+        1px 0 white, 0 -1px white,  black 0.1em 0.1em 0.2em;
+    }
 }
 h3{
     font-size: 1.7rem;
@@ -21,6 +34,13 @@ h3{
 }
 h4{
     font-size: 1.4rem;
+    &.buss_tittle{
+        color:white;
+        font-weight: bolder;
+        margin-top: 1rem;
+        text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+		0 0 0.1em black;
+    }
 }
 
 //----------Mixin-----------//
@@ -78,76 +98,59 @@ section{
                 height: auto;
             }
             &.artempresa{
-                width: 250px;
-                height: 270px;
+                width: 260px;
+                height: 250px;
                 @include box-transition;
                 &:hover{
-                    height: 300px;
-                    width: 330px;
-                }
-            }
-            &.bussiness-pink{
-                @extend .artempresa;
-                &:hover{
-                    background-color:#b97575;
-                }
-            }
-            &.bussiness-orange{
-                @extend .artempresa;
-                &:hover{
-                    background-color: #d1b186;
-                }
-            }
-            &.bussiness-blue{
-                @extend .artempresa;
-                &:hover{
-                    background-color: #8591b1;
-                }
-            }
-            &.bussiness-green{
-                @extend .artempresa;
-                &:hover{
-                    background-color: #8aba90;
+                    height: 280px;
+                    width: 290px;
                 }
             }
         }
     }
 }
-
-//---------Maps----------//
-$colorinside: (
-    "color1": #8b8589, 
-    "color2": #989898,
-    "color3": #838996,
-    "colortext": white, 
-);
-
-.color1{
-    background-color: map-get($colorinside, "color1");
-    color: map-get($colorinside, "colortext")
-}
-.color2{
-    background-color: map-get($colorinside, "color2");
-    color: map-get($colorinside, "colortext" )
-}
-.color3{
-    background-color: map-get($colorinside, "color3");
-    color: map-get($colorinside, "colortext")
-}
-
-
 @media screen and (max-width: 988px) {
     h1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        &.tittle_one{
+            text-shadow: 0 0 0.2em black, 0 0 0.2em black,
+            0 0 0.2em black;
+            font-weight: border;
+        }
     }
     h2{
         font-size: 1.2rem;
+        &.phase_style {
+            align-items: center;
+            font-family: 'Staatliches';
+            font-size: 2rem;
+            font-weight: border;
+            color: rgb(38, 74, 143);
+            text-shadow: -0.5px 0 white, 0 0.5px white,
+            0.5px 0 white, 0 -0.5px white;
+        }
     }
     h3 {
         font-size: 1rem;
+        &.small-margin-top {
+            margin-top: 20px;
+        }
+    }
+    h4{
+        font-size: 1rem;
+        &.buss_tittle{
+            color:white;
+            font-weight: bolder;
+            margin-top: 0.8rem;
+            text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+            0 0 0.1em black;
+        }
     }
     body{
         font-size: 0.8rem;
+    }
+    .style-icon{
+        font-size: 1rem;
     }
 }
 
