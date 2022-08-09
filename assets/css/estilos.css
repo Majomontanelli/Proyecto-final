@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;400;500&family=Inter&family=Mouse+Memoirs&family=Open+Sans&family=Quintessential&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Staatliches&display=swap');
 
 *{
     padding: 0;
@@ -62,7 +62,7 @@ nav{
     background-color: #161616;
     border-radius: 4px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 0px;
 }
 footer{
     background-color:  rgb(10, 10, 10);
